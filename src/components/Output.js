@@ -10,8 +10,8 @@ function Output({ details }) {
 
     if (name !== null) {
         formattedOutput = (
-            <div>
-                <p>Hi <span>{name}. </span>You are <span>{age} years old.</span></p>
+            <div className="textStyle">
+                <p >Hi <span>{name}. </span>You are <span>{age} years old.</span></p>
                 <p>You are a <span>{horoscope}.</span></p>
             </div>
         );

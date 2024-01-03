@@ -1,5 +1,5 @@
 .container {
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     padding: 20px;
     background-color: lavender;
@@ -12,8 +12,8 @@
 label {
     font-weight: bold;
     display: inline-block;
-    width: 30%;
-    text-align: right;
+    width: 100%;
+    text-align: center;
     margin-right: 10px;
 }
 
@@ -28,7 +28,7 @@ input[type="date"] {
 }
 
 button[type="submit"] {
-    background-color: #0074d9;
+    background-color: #d9003a;
     color: #fff;
     padding: 10px 20px;
     border: none;
